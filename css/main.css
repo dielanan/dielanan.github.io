@@ -4458,6 +4458,8 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
+  
 }
 
 .navbar-nav .nav-link {
@@ -10735,4 +10737,10 @@ a.text-dark:focus {
 
 /*additional*/
 
- 
+ .navbar-nav a:hover {
+  border-bottom: 3px solid blue;
+}
+
+.navbar-nav a.active {
+  border-bottom: 3px solid blue;
+}
